@@ -120,6 +120,7 @@ jobs:
         with:
           generate_release_notes: true
           files: |
-            artifacts/tauri-windows-msi/*
-            artifacts/tauri-macos/*
-            artifacts/android-apk/*
+            artifacts/**/*.msi
+            artifacts/**/*.dmg
+            artifacts/**/*.app.zip
+            artifacts/**/*.apk
